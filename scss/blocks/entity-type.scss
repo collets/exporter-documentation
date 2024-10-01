@@ -1,0 +1,63 @@
+.content-block--entity-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    width: fit-content;
+
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    line-height: 16px;
+    border-radius: 4px;
+
+    &.content-block--entity-type-const {
+        background-color: rgba(0, 133, 102, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &.content-block--entity-type-enum {
+        background-color: rgba(0, 80, 61, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &.content-block--entity-type-function {
+        background-color: rgba(236, 67, 81, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &.content-block--entity-type-interface {
+        background-color: rgba(0, 106, 81, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &.content-block--entity-type-type {
+        background-color: rgba(0, 53, 41, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &.content-block--entity-type-decorator {
+        background-color: rgba(248, 115, 48, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &.content-block--entity-type-class {
+        background-color: rgba(234, 40, 56, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &.content-block--entity-type-pipe {
+        background-color: rgba(82, 156, 235, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &.content-block--entity-type-component {
+        background-color: rgba(12, 55, 101, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    &.content-block--entity-type-directive {
+        background-color: rgba(20, 92, 169, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+}

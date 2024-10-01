@@ -1,0 +1,20 @@
+
+{* Get block *}
+{[ const block = context /]}
+{[ let configuration = exportConfiguration() /]}
+
+{* Get properties *}
+{[ let typeId = block.properties.typeId /]}
+
+{* Render content health block *}
+{[ if typeId ]}
+
+    {[ const typeClass = `content-block--entity-type-${typeId.toLowerCase()}` /]}
+
+    <div class="content-block content-block--entity-type {{typeClass}}">
+        {{ typeId }}
+    </div>
+{[ else ]}
+    {[ inject "component_callout" context ({"type": "warning", "text": "<strong>Unable to show an entity type banner</strong><br />Please select and existing entity type.", "blockId": block.id }) /]}  
+{[/]}
+
