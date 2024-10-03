@@ -649,7 +649,7 @@
             "key": "typeId",
             "type": "enum",
             "label": "Entity type",
-            "default": "",
+            "default": "CONST",
             "values": [
               "CONST",
               "INTERFACE",
