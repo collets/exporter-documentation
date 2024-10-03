@@ -649,6 +649,7 @@
             "key": "typeId",
             "type": "enum",
             "label": "Entity type",
+            "default": "",
             "values": [
               "CONST",
               "INTERFACE",
